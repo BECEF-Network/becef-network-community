@@ -1,0 +1,17 @@
+.nav {
+    background-color: var(--brand);
+    padding: 15px;
+}
+.nav-link {
+    color: var(--w);
+}
+
+.nav-link:hover {
+    background-color: var(--w);
+    border-radius: 4px;
+    border: none;
+    box-shadow:;
+}
+.spinner-grow {
+    margin: 5px;
+}
