@@ -34,7 +34,7 @@ header {
     margin: 5px;
 }
 
-/* ---------------------------------------------top nav------------------------------------ */
+/* ---------------------------------------------top section------------------------------------ */
 #top-section {
     margin: 80px 0px;
     
@@ -56,4 +56,20 @@ header {
     #top-section .row .col-md-6:last-child {
         margin-top: 50px;
     }
+}
+/* -------------------------------------------------------------------iframe section------------------------------------------------------------------ */
+#video .container {
+    background-color: var(--w);
+    box-sizing: border-box;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.3);   
+}
+#video .container .top video {
+    width: 90%;
+    border-radius: 8px;
+}
+#video .container .bottom h6 {
+    text-align: justify;
+    margin-top: 25px;
 }
