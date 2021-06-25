@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    overflow: auto;
+}
+body {
+    background-color: darkcyan;
+    margin: 0;
+}
+iframe {
+    border: none;
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+}
+header {
+    display: flex;
+    height: 15vw;
+}
+#logo {
+    width: 15%;
+}
+nav {
+    height: 100%;
+    padding: 0 10px;
+    width: 85%;
+}
+nav > * {
+    height: 50%;
+    font-size: 1.25rem;
+    line-height: 7.5vw;
+    text-align: right;
+}
+nav > * > * {
+    padding: 0 10px;
+}
+article {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    margin: 5vw auto;
+    padding: 2.5vw;
+    width: 50%;
+}
