@@ -73,3 +73,31 @@ header {
     text-align: justify;
     margin-top: 25px;
 }
+.service{
+    flex-wrap: wrap;
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 45px;
+    justify-content: center;
+    position: relative;
+    left: 50% auto;
+}
+.card{
+    background: #447CCF;
+}
+.card-body i{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px auto;
+    margin-bottom: 20px;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+    height: 100px;
+}
