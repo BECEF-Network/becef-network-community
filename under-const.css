@@ -1,0 +1,159 @@
+/* Level 1 */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+#bg-video {
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    width: 100vw;
+    z-index: -2;
+}
+iframe {
+    border: none;
+    left: 50%;
+    position: relative;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+header {
+    display: flex;
+    height: 15vw;
+    width: 100%;
+}
+#logo {
+    height: 100%;
+    padding: 2.5%;
+    text-align: center;
+    width: 30%;
+}
+#logo > img {
+    height: 100%;
+}
+
+/* Level 2 */
+
+nav {
+    height: 100%;
+    width: 70%;
+}
+nav > * {
+    height: 50%;
+}
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: block;
+    height: 100%;
+}
+nav img {
+    border-radius: 50%;
+    width: 100%;
+}
+#nav-upper-links {
+    height: 100%;
+    width: 60%;
+}
+#social-media-icons {
+    height: 100%;
+    width: 40%;
+}
+#nav-upper-links > li {
+    line-height: 7.5vw;
+    margin: 0 2.5%;
+}
+#social-media-icons > li {
+    padding: .75vw .5vw;
+    width: 25%;
+}
+#nav-lower-links > li {
+    line-height: 7.5vw;
+    margin: 0 2.5%;
+}
+
+/* Level 3 */
+
+#top-content {
+    height: calc(100vh - 15vw);
+    width: 100%;
+}
+#bottom-content {
+    background-color: silver;
+    border-radius: 20px;
+    box-shadow: ;
+    margin: 2.5%;
+    overflow: auto;
+    padding: 0 2.5%;
+    width: 95%;
+}
+#slider-box-container {
+    overflow: auto;
+}
+#slider-box-container > * {
+    display: none;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+#slider-box1 {
+    animation: sliding 8s infinite;
+}
+#slider-box-container > * > * {
+    background-color: yellow;
+    border-radius: 10px;
+    margin: 0 2.5%;
+    padding: .5% 3%;
+    width: 30%;
+}
+#slider-box-container img {
+    border-radius: 50%;
+    width: 50%;
+}
+#radio-buttons {
+    margin: 2.5% 0;
+    text-align: center;
+}
+
+/* Level 4 */
+
+a {
+    text-decoration: none;
+}
+
+/* Level  */
+
+@keyframes sliding {
+0% {
+    margin: 0 0 0 100%;
+    display: flex;
+}
+18.75% {
+    margin: 0 0 0 0;
+}
+81.25% {
+    margin: 0 0 0 0;
+}
+100% {
+    margin: 0 100% 0 0;
+    display: none;
+}
+}
+@media only screen and (min-aspect-ratio: 16/9) {
+iframe {
+    height: 56.25vw;
+    width: 100vw;
+}
+}
+@media only screen and (max-aspect-ratio: 16/9) {
+iframe {
+    height: 100vh;
+    width: 177.78vh;
+}
+}
